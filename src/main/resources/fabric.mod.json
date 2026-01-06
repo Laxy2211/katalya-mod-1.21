@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "katalya",
+	"version": "${version}",
+	"name": "Katalya",
+	"description": "This mod finds make a new experience rpg style from Minecraft with some many items, biomes, mobs and of course bosses.I hope you like this mod :)",
+	"authors": [
+		"Laxy,Serenet,Jroe"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/katalya/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cata.katalya.Katalya"
+		],
+		"fabric-datagen": [
+			"net.cata.katalya.KatalyaDataGenerator"
+		],
+		"client": [
+			"net.cata.katalya.KatalyaModClient"
+		]
+
+	},
+	"mixins": [
+		"katalya.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
