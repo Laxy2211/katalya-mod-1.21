@@ -33,6 +33,19 @@ public class ModItems {
     public static final Item RETRACTABLE_BEAK = registerItem("retractable_beak",new Item(new Item.Settings()));
     public static final Item ARACHNID_SCALE = registerItem("arachnid_scale",new Item(new Item.Settings()));
     public static final Item GELID_EYE = registerItem("gelid_eye",new Item(new Item.Settings()));
+    public static final Item GELID_BONE = registerItem("gelid_bone",new Item(new Item.Settings()));
+    public static final Item ICE_SOUL = registerItem("ice_soul",new Item(new Item.Settings()));
+    public static final Item ICE_SKULL = registerItem("ice_skull",new Item(new Item.Settings()));
+    public static final Item RAGS = registerItem("rags",new Item(new Item.Settings()));
+    public static final Item PURE_CRYSTAL = registerItem("pure_crystal",new Item(new Item.Settings()));
+    public static final Item ARID_SCALE = registerItem("arid_scale",new Item(new Item.Settings()));
+    public static final Item FIRE_SOUL = registerItem("fire_soul",new Item(new Item.Settings()));
+    public static final Item SKELETAL_FEATHER = registerItem("skeletal_feather",new Item(new Item.Settings()));
+    public static final Item STORM_FRAGMENT = registerItem("storm_fragment",new Item(new Item.Settings()));
+    public static final Item FIRMICIDAE_HEAD = registerItem("firmicidae_head",new Item(new Item.Settings()));
+    public static final Item LYHARA_KNIGHT_SOUL = registerItem("lyhara_knight_soul",new Item(new Item.Settings()));
+    public static final Item LYHARA_HORSE_ARMOR = registerItem("lyhara_horse_armor",new Item(new Item.Settings()));
+    public static final Item COCONUT_PLECTRUM = registerItem("coconut_plectrum",new Item(new Item.Settings()));
    private static Item registerItem(String name, Item item){
        return Registry.register(Registries.ITEM, Identifier.of(Katalya.MOD_ID, name), item);
    }
@@ -64,6 +77,19 @@ public class ModItems {
             entries.add(RETRACTABLE_BEAK);
             entries.add(ARACHNID_SCALE);
             entries.add(GELID_EYE);
+            entries.add(GELID_BONE);
+            entries.add(ICE_SOUL);
+            entries.add(ICE_SKULL);
+            entries.add(RAGS);
+            entries.add(PURE_CRYSTAL);
+            entries.add(ARID_SCALE);
+            entries.add(FIRE_SOUL);
+            entries.add(SKELETAL_FEATHER);
+            entries.add(STORM_FRAGMENT);
+            entries.add(FIRMICIDAE_HEAD);
+            entries.add(LYHARA_KNIGHT_SOUL);
+            entries.add(LYHARA_HORSE_ARMOR);
+            entries.add(COCONUT_PLECTRUM);
 
         });
     }
