@@ -46,6 +46,44 @@ public class ModItems {
     public static final Item LYHARA_KNIGHT_SOUL = registerItem("lyhara_knight_soul",new Item(new Item.Settings()));
     public static final Item LYHARA_HORSE_ARMOR = registerItem("lyhara_horse_armor",new Item(new Item.Settings()));
     public static final Item COCONUT_PLECTRUM = registerItem("coconut_plectrum",new Item(new Item.Settings()));
+    public static final Item NAVIGATION_PEARL = registerItem("naigation_pearl",new Item(new Item.Settings()));
+    public static final Item ECHISCUD = registerItem("echiscud",new Item(new Item.Settings()));
+    public static final Item BASE_SHELL = registerItem("base_shell",new Item(new Item.Settings()));
+    public static final Item RABBIT_FIN = registerItem("rabbit_fin",new Item(new Item.Settings()));
+    public static final Item SHARK_FIN = registerItem("shark_fin",new Item(new Item.Settings()));
+    public static final Item REINFORCED_NAUTILUS_SHELL = registerItem("reinforced_nautilus_shell",new Item(new Item.Settings()));
+    public static final Item AQUATIC_SCALE = registerItem("aquatic_scale",new Item(new Item.Settings()));
+    public static final Item REGENERATION_STONE = registerItem("regeneration_stone",new Item(new Item.Settings()));
+    public static final Item ROCHYURA_SHELL = registerItem("rochyura_shell",new Item(new Item.Settings()));
+    public static final Item ROCHYURA_LEG = registerItem("rochyura_leg",new Item(new Item.Settings()));
+    public static final Item DEEP_SOUL = registerItem("deep_soul",new Item(new Item.Settings()));
+    public static final Item EYE_OF_BAT = registerItem("eye_of_bat",new Item(new Item.Settings()));
+    public static final Item STONE_HEAD = registerItem("stone_head",new Item(new Item.Settings()));
+    public static final Item CARTILAGE = registerItem("cartilage",new Item(new Item.Settings()));
+    public static final Item PURPLE_FLOWER = registerItem("purple_flower",new Item(new Item.Settings()));
+    public static final Item CORROSIVE_SOUL = registerItem("corrosive_soul",new Item(new Item.Settings()));
+    public static final Item ACID_BUBBLE = registerItem("acid_bubble",new Item(new Item.Settings()));
+    public static final Item BROKEN_DRILL = registerItem("broken_drill",new Item(new Item.Settings()));
+    public static final Item BROKEN_GUN = registerItem("broken_gun",new Item(new Item.Settings()));
+    public static final Item BROKEN_CAMERA = registerItem("broken_camera",new Item(new Item.Settings()));
+    public static final Item CORROSIVE_SPORE = registerItem("corrosive_spore",new Item(new Item.Settings()));
+    public static final Item SYRINGE = registerItem("syringe",new Item(new Item.Settings()));
+    public static final Item INFECTED_FLESH = registerItem("infected_flesh",new Item(new Item.Settings()));
+    public static final Item GLOWING_MUSHROOM = registerItem("glowing_mushroom",new Item(new Item.Settings()));
+    public static final Item GLOWING_SHELL = registerItem("glowing_shell",new Item(new Item.Settings()));
+    public static final Item CLINGY_SPORE = registerItem("clingy_spore",new Item(new Item.Settings()));
+    public static final Item GLOWING_WINGS = registerItem("glowing_wings",new Item(new Item.Settings()));
+    public static final Item GELID_CORE = registerItem("gelid_core",new Item(new Item.Settings()));
+    public static final Item FOSSIL_BONE = registerItem("fossil_bone",new Item(new Item.Settings()));
+    public static final Item AMBER = registerItem("amber",new Item(new Item.Settings()));
+    public static final Item PROFANE_HEART = registerItem("profane_heart",new Item(new Item.Settings()));
+    public static final Item TITANIUM = registerItem("titanium",new Item(new Item.Settings()));
+    public static final Item COBALT = registerItem("cobalt",new Item(new Item.Settings()));
+    public static final Item GALLIUM = registerItem("gallium",new Item(new Item.Settings()));
+    public static final Item RUBY = registerItem("ruby",new Item(new Item.Settings()));
+    public static final Item SAPPHIRE = registerItem("sapphire",new Item(new Item.Settings()));
+
+
    private static Item registerItem(String name, Item item){
        return Registry.register(Registries.ITEM, Identifier.of(Katalya.MOD_ID, name), item);
    }
@@ -90,6 +128,43 @@ public class ModItems {
             entries.add(LYHARA_KNIGHT_SOUL);
             entries.add(LYHARA_HORSE_ARMOR);
             entries.add(COCONUT_PLECTRUM);
+            entries.add(NAVIGATION_PEARL);
+            entries.add(ECHISCUD);
+            entries.add(BASE_SHELL);
+            entries.add(RABBIT_FIN);
+            entries.add(SHARK_FIN);
+            entries.add(REINFORCED_NAUTILUS_SHELL);
+            entries.add(AQUATIC_SCALE);
+            entries.add(REGENERATION_STONE);
+            entries.add(ROCHYURA_SHELL);
+            entries.add(ROCHYURA_LEG);
+            entries.add(DEEP_SOUL);
+            entries.add(EYE_OF_BAT);
+            entries.add(STONE_HEAD);
+            entries.add(CARTILAGE);
+            entries.add(PURPLE_FLOWER);
+            entries.add(CORROSIVE_SOUL);
+            entries.add(ACID_BUBBLE);
+            entries.add(BROKEN_DRILL);
+            entries.add(BROKEN_GUN);
+            entries.add(BROKEN_CAMERA);
+            entries.add(CORROSIVE_SPORE);
+            entries.add(SYRINGE);
+            entries.add(INFECTED_FLESH);
+            entries.add(GLOWING_MUSHROOM);
+            entries.add(GLOWING_SHELL);
+            entries.add(CLINGY_SPORE);
+            entries.add(GLOWING_WINGS);
+            entries.add(GELID_CORE);
+            entries.add(FOSSIL_BONE);
+            entries.add(AMBER);
+            entries.add(PROFANE_HEART);
+            entries.add(TITANIUM);
+            entries.add(COBALT);
+            entries.add(GALLIUM);
+            entries.add(RUBY);
+            entries.add(SAPPHIRE);
+
 
         });
     }
