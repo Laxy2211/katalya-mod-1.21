@@ -2,6 +2,7 @@ package net.cata.katalya;
 
 
 
+import net.cata.katalya.block.ModBlocks;
 import net.cata.katalya.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -16,7 +17,8 @@ public class Katalya implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
-		LOGGER.info("Hello Fabric world!");
+
 	}
 }

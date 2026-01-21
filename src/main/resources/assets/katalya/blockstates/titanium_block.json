@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "katalya:block/titanium_block"
+    }
+  }
+}
